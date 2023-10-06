@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+
+
 import java.sql.Date;
 
 @Getter
@@ -26,4 +28,5 @@ public class UserEntity {
     @Temporal(TemporalType.DATE)
     @Column(name = "fecha_nacimiento")
     protected Date fechaNacimiento;
+
 }
